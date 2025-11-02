@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Dreams - Организация свадеб</title>
+    <!-- Подключение Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Подключение CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <a href="#" class="logo">Wedding Dreams</a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Главная</a></li>
+                    <li><a href="#about" class="nav-link">О нас</a></li>
+                    <li><a href="#services" class="nav-link">Услуги</a></li>
+                    <li><a href="#portfolio" class="nav-link">Галерея</a></li>
+                    <li><a href="#testimonials" class="nav-link">Отзывы</a></li>
+                    <li><a href="#contact" class="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+            <button class="btn btn-primary" id="book-now-btn">Забронировать</button>
+            <button class="nav-toggle" aria-label="Открыть меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Ваш идеальный день начинается здесь</h1>
+                    <p class="hero-subtitle">Полная организация свадебных мероприятий под ключ</p>
+                    <a href="#contact" class="btn btn-hero">Узнать больше</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="section-title">О нас</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Команда "Wedding Dreams" превращает мечты в реальность. Мы берем на себя все хлопоты по организации вашего торжества, чтобы вы могли наслаждаться каждым моментом.</p>
+                        <p>Наш подход сочетает в себе внимание к деталям, творческий взгляд и безупречную организацию.</p>
+                    </div>
+                    <div class="about-images">
+                        <img src="images/about-us-1.jpg" alt="Свадебное оформление" class="about-img">
+                        <img src="images/about-us-2.jpg" alt="Счастливая пара" class="about-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+            <div class="container">
+                <h2 class="section-title">Наши услуги</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="images/price1.jpg" alt="Организация свадьбы" class="service-img">
+                            </div>
+                        <h3>Полная организация</h3>
+                        <p>Мы берем на себя все этапы подготовки и проведения свадьбы, от создания концепции до координации в день мероприятия.</p>
+                        <div class="service-price">
+                            <span class="price-amount">от 250 000 ₽</span>
+                            <span class="price-note">Полный пакет "Под ключ"</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="images/price2.jpg" alt="Организация свадьбы" class="service-img">
+                            </div>
+                        <h3>Декор и цветы</h3>
+                        <p>Создадим уникальное оформление, которое отразит вашу индивидуальность и создаст волшебную атмосферу.</p>
+                        <div class="service-price">
+                            <span class="price-amount">от 80 000 ₽</span>
+                            <span class="price-note">Включая флористику</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="images/price3.jpg" alt="Организация свадьбы" class="service-img">
+                            </div>
+                        <h3>Фото и видео</h3>
+                        <p>Подберем лучших профессионалов, которые запечатлят самые важные моменты вашего дня.</p>
+                        <div class="service-price">
+                            <span class="price-amount">от 80 000 ₽</span>
+                            <span class="price-note">Фото + видео съемка</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="images/price4.jpg" alt="Организация свадьбы" class="service-img">
+                            </div>
+                        <h3>Свадебный торт</h3>
+                        <p>Воплотим в жизнь ваши самые смелые фантазии, создав торт, который станет центром сладкого стола.</p>
+                        <div class="service-price">
+                            <span class="price-amount">от 2000 ₽</span>
+                            <span class="price-note">Цена за килограмм</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <h2 class="section-title">Галерея наших работ</h2>
+                <div class="portfolio-grid">
+                    <img src="images/portfolio-1.jpg" alt="Свадьба 1" class="portfolio-item">
+                    <img src="images/portfolio-2.jpg" alt="Свадьба 2" class="portfolio-item">
+                    <img src="images/portfolio-3.jpg" alt="Свадьба 3" class="portfolio-item">
+                    <img src="images/portfolio-4.jpg" alt="Свадьба 4" class="portfolio-item">
+                    <img src="images/portfolio-5.jpg" alt="Свадьба 5" class="portfolio-item">
+                    <img src="images/portfolio-6.jpg" alt="Свадьба 6" class="portfolio-item">
+                    <img src="images/portfolio-7.jpg" alt="Свадьба 6" class="portfolio-item">
+                    <img src="images/portfolio-8.jpg" alt="Свадьба 6" class="portfolio-item">
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials" id="testimonials">
+            <div class="container">
+                <h2 class="section-title">Отзывы наших клиентов</h2>
+                <div class="testimonials-slider">
+                    <div class="testimonial active">
+                        <p>"Всё было идеально! Спасибо команде Wedding Dreams за организацию самой лучшей свадьбы. Мы даже не представляли, что всё может быть так безупречно."</p>
+                        <h4>- Анна и Игорь</h4>
+                    </div>
+                    <div class="testimonial">
+                        <p>"Нам понравилось абсолютно всё: от первой встречи до финального аккорда вечера. Профессионалы своего дела!"</p>
+                        <h4>- Мария и Алексей</h4>
+                    </div>
+                    <div class="testimonial">
+                        <p>"Свадьба прошла как по маслу. Все гости были в восторге. Огромное спасибо за ваш труд и внимание к деталям!"</p>
+                        <h4>- Екатерина и Дмитрий</h4>
+                    </div>
+                    <div class="testimonial">
+                        <p>"Мы даже представить не могли, что наша свадьба будет настолько идеальной! Команда Wedding Dreams учла каждую нашу пожелание - от цветовой гаммы до музыкального сопровождения. Особенно хочется отметить организацию выездной церемонии: всё было продумано до мельчайших деталей. Спасибо за самый важный день в нашей жизни!"</p>
+                        <h4>- Ольга и Николай</h4>
+                    </div>
+                    <div class="testimonial">
+                        <p>"Мы искали организаторов, которые смогут воплотить в жизнь нашу концепцию 'винтажной свадьбы', и Wedding Dreams превзошли все ожидания! Каждая деталь соответствовала стилю, фотографии получились невероятными. Спасибо за терпение и креативный подход к реализации наших идей!"</p>
+                        <h4>- Екатерина и Иван</h4>
+                    </div>
+                </div>
+                <div class="testimonial-nav">
+                    <button class="testimonial-btn active" data-slide="0"></button>
+                    <button class="testimonial-btn" data-slide="1"></button>
+                    <button class="testimonial-btn" data-slide="2"></button>
+                    <button class="testimonial-btn" data-slide="3"></button>
+                    <button class="testimonial-btn" data-slide="4"></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="section-title">Свяжитесь с нами</h2>
+                <div class="contact-content">
+                    <!-- Форма обратной связи -->
+                    <form class="contact-form" id="contact-form">
+                        <h3>Оставьте заявку</h3>
+                        <div class="form-group">
+                            <label for="name">Ваше имя *</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message" id="name-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Ваш Email *</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Предполагаемая дата свадьбы</label>
+                            <input type="date" id="date" name="wedding-date">
+                        </div>
+                        <div class="form-group">
+                            <label for="guests">Примерное количество гостей</label>
+                            <select id="guests" name="guests">
+                                <option value="до 50">до 50</option>
+                                <option value="50-100">50-100</option>
+                                <option value="100-150">100-150</option>
+                                <option value="150+">более 150</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Ваше сообщение</label>
+                            <textarea id="message" name="message" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Отправить заявку</button>
+                    </form>
+
+                    <!-- Блок с контактной информацией -->
+                    <div class="contact-info">
+                        <h3>Наши контакты</h3>
+                        <p><strong>Адрес: </strong> г.Екатеринбург, ул. Водоёмная, д. 80/2</p>
+                        <p><strong>Телефон: </strong> <a href="tel:+74951234567"> +7 919 325 55 63</a></p>
+                        <p><strong>Email: </strong> <a href="mailto:hello@weddingdreams.ru"> anna34_01@mail.ru</a></p>
+                        <div class="social-links">
+        <a href="https://vk.com/anya_ro_25" target="_blank" aria-label="ВКонтакте">📱 VK</a>
+        <a href="https://t.me/anya2506" target="_blank" aria-label="Телеграм">✈️ Telegram</a>
+    </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Блок для вывода данных формы -->
+                <div id="form-output" style="display: none; margin-top: 2rem; padding: 1rem; background: #fdf6f0; border: 1px solid #d4a574;"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Wedding Dreams. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <!-- Подключение JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
